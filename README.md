@@ -3,7 +3,6 @@
 LG Aimers 9기 Phase2 온라인 해커톤(DACON) — 야구 투구 제구 성공 확률(`control_success`) 예측 프로젝트
 
 - 대회: [DACON 코드 제출형 대회](https://dacon.io/competitions/official/236743) — submit.zip(`model/`, `script.py`, `requirements.txt`) 제출, 서버가 오프라인 환경에서 직접 실행·채점
-- 평가지표: Brier Skill Score
 
 ---
 
