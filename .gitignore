@@ -1,0 +1,54 @@
+# --- Python environments ---
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Competition data (large files, not for version control) ---
+data/
+
+# --- Trained model artifacts / round backups ---
+# NOTE: baseline_submit/model/rf.pkl is intentionally tracked (confirmed
+# stable baseline, 622.14) — it is force-added below and NOT excluded here.
+training/backup_*/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# --- Optuna / SQLite study files ---
+*.db
+*.sqlite
+*.sqlite3
+study.db
+
+# --- Logs, scratchpad, and background task output ---
+*.log
+logs/
+scratchpad/
+AppData/Local/Temp/**
+
+# --- Build outputs ---
+submit.zip
+*.zip
+build/
+dist/
+*.egg-info/
+
+# --- Credentials / secrets ---
+.env
+.env.*
+*.pem
+*.key
+
+# --- IDE folders (not intentionally shared) ---
+.vscode/
+.idea/
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db

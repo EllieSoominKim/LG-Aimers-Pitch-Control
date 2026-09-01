@@ -1,0 +1,14 @@
+{
+  "decay": 0.19221222269472918,
+  "depth": 10,
+  "l2_leaf_reg": 1.23414490021177,
+  "min_data_in_leaf": 1885,
+  "learning_rate": 0.00504160494935608,
+  "random_strength": 7.76547015234555,
+  "bagging_temperature": 6.483692753219198,
+  "val_bss_cal_honest": 0.01394172718901332,
+  "cal_bss_objective_final": 0.010132441046433516,
+  "cal_bss_objective_checkpoint": 0.009943328185780143,
+  "checkpoint_trials": 120,
+  "total_trials": 400
+}

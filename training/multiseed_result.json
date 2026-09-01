@@ -1,0 +1,11 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "lightgbm_single_seed0_bss": 0.01450423086374708,
+  "lightgbm_multiseed_avg_bss": 0.014620878765496559,
+  "catboost_single_seed0_bss": 0.014591544700223391,
+  "catboost_multiseed_avg_bss": 0.014561840340851728
+}

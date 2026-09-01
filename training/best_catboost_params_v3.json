@@ -1,0 +1,14 @@
+{
+  "decay": 0.233,
+  "depth": 4,
+  "l2_leaf_reg": 7.481031752745893,
+  "min_data_in_leaf": 1403,
+  "learning_rate": 0.02838069712280425,
+  "random_strength": 1.2933519600816017,
+  "bagging_temperature": 5.132308004606838,
+  "val_bss_cal_honest": 0.01405,
+  "cal_bss_objective_final": 0.010457058273014352,
+  "total_trials": 150,
+  "model_size_mb": 0.016512,
+  "note": "decay overridden from Optuna-found 0.00237 to 0.233 (matching round-3 proven value) after decay-sensitivity investigation found the Optuna value gave a FLAT VAL BSS curve (0.00237 vs 0.233 both ~0.0140-0.0141) while collapsing effective training data to ~1 season (n_eff~248K) vs ~395K at 0.233 -- extreme decay bought zero measurable benefit while adding real fragility risk for out-of-sample generalization to a season not in any backtest fold."
+}

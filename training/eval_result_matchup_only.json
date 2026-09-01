@@ -1,0 +1,37 @@
+{
+  "stage": "matchup_only",
+  "rows": [
+    {
+      "label": "lightgbm (calibrated)",
+      "bs": 0.24933625526249426,
+      "bss": 0.013162277922461718
+    },
+    {
+      "label": "catboost (calibrated)",
+      "bs": 0.24923663432740062,
+      "bss": 0.013556563529083743
+    },
+    {
+      "label": "hgb (calibrated)",
+      "bs": 0.24952201005443547,
+      "bss": 0.0124270866621643
+    },
+    {
+      "label": "blend: simple average",
+      "bs": 0.2491927910456613,
+      "bss": 0.013730089052816585
+    },
+    {
+      "label": "blend: logistic stack",
+      "bs": 0.24917435315305234,
+      "bss": 0.013803063630552947
+    },
+    {
+      "label": "blend: CAL-optimized weights",
+      "bs": 0.2491778906539442,
+      "bss": 0.013789062701092147
+    }
+  ],
+  "winner": "blend: logistic stack",
+  "winner_bss": 0.013803063630552947
+}

@@ -1,0 +1,37 @@
+{
+  "stage": "baseline",
+  "rows": [
+    {
+      "label": "lightgbm (calibrated)",
+      "bs": 0.2494638966322754,
+      "bss": 0.012657091388457387
+    },
+    {
+      "label": "catboost (calibrated)",
+      "bs": 0.24943560444018992,
+      "bss": 0.012769067893281472
+    },
+    {
+      "label": "hgb (calibrated)",
+      "bs": 0.2496160902460307,
+      "bss": 0.012054730536623204
+    },
+    {
+      "label": "blend: simple average",
+      "bs": 0.24934613663705052,
+      "bss": 0.013123168836028043
+    },
+    {
+      "label": "blend: logistic stack",
+      "bs": 0.2493472482413054,
+      "bss": 0.013118769263211871
+    },
+    {
+      "label": "blend: CAL-optimized weights",
+      "bs": 0.24935656429975817,
+      "bss": 0.013081897618161364
+    }
+  ],
+  "winner": "blend: simple average",
+  "winner_bss": 0.013123168836028043
+}

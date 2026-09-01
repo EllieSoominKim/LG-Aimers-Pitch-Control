@@ -1,0 +1,14 @@
+{
+  "decay": 0.383871399678512,
+  "learning_rate": 0.0757098723018102,
+  "max_leaf_nodes": 39,
+  "min_samples_leaf": 36,
+  "l2_regularization": 81.071599689643,
+  "best_iteration": 25,
+  "val_bss_cal_honest": 0.013213176074103994,
+  "cal_bss_objective_final": 0.00996243229620053,
+  "cal_bss_objective_checkpoint": null,
+  "checkpoint_trials": null,
+  "total_trials": 216,
+  "note": "search stopped early at trial 84/400 after 41-trial plateau; this is the best trial found, not a full 400-trial result"
+}

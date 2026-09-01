@@ -1,0 +1,12 @@
+{
+  "decay": 0.23266619681155698,
+  "depth": 7,
+  "l2_leaf_reg": 28.79837539712744,
+  "min_data_in_leaf": 131,
+  "learning_rate": 0.03532259943223771,
+  "random_strength": 3.7929500468817663,
+  "bagging_temperature": 4.318779257067479,
+  "val_bss_raw": 0.01041932072286067,
+  "val_bss_cal": 0.013651444589582895,
+  "cal_bss_objective": 0.009645921564743865
+}

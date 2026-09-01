@@ -1,0 +1,37 @@
+{
+  "stage": "shrinkage",
+  "rows": [
+    {
+      "label": "lightgbm (calibrated)",
+      "bs": 0.24950807163104755,
+      "bss": 0.01248225297550698
+    },
+    {
+      "label": "catboost (calibrated)",
+      "bs": 0.24942712912549075,
+      "bss": 0.012802611993167012
+    },
+    {
+      "label": "hgb (calibrated)",
+      "bs": 0.24960794222919944,
+      "bss": 0.012086979237722728
+    },
+    {
+      "label": "blend: simple average",
+      "bs": 0.24936159164102079,
+      "bss": 0.013062000110699024
+    },
+    {
+      "label": "blend: logistic stack",
+      "bs": 0.24935387875711995,
+      "bss": 0.013092526617048184
+    },
+    {
+      "label": "blend: CAL-optimized weights",
+      "bs": 0.24934781601141293,
+      "bss": 0.013116522109227091
+    }
+  ],
+  "winner": "blend: CAL-optimized weights",
+  "winner_bss": 0.013116522109227091
+}

@@ -1,0 +1,14 @@
+{
+  "names": [
+    "lightgbm",
+    "catboost",
+    "hgb"
+  ],
+  "val_bss_final_stacked": 0.01486899362013272,
+  "val_bss_simple_average": 0.014909424860124032,
+  "per_model_val_bss": {
+    "lightgbm": 0.014855892720340713,
+    "catboost": 0.014173100366331126,
+    "hgb": 0.01435705114357766
+  }
+}

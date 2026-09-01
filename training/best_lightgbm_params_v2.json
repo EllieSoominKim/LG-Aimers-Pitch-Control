@@ -1,0 +1,15 @@
+{
+  "decay": 0.03186469048918622,
+  "num_leaves": 47,
+  "min_child_samples": 1430,
+  "learning_rate": 0.012281549239907635,
+  "reg_lambda": 0.02544452005375252,
+  "reg_alpha": 0.00909087716028485,
+  "subsample": 0.8480641033707278,
+  "colsample_bytree": 0.4564931064292394,
+  "val_bss_cal_honest": 0.013251604278049167,
+  "cal_bss_objective_final": 0.009866535282190392,
+  "cal_bss_objective_checkpoint": 0.009638352143161333,
+  "checkpoint_trials": 120,
+  "total_trials": 400
+}
