@@ -1,4 +1,5 @@
 # LG-Aimers-Pitch-Control
+<img width="2480" height="3509" alt="수료증(개인정보)" src="https://github.com/user-attachments/assets/34bca454-abc8-46a1-9bad-4cc771119aa3" />
 
 LG Aimers 9기 Phase2 온라인 해커톤(DACON) — 야구 투구 제구 성공 확률(`control_success`) 예측 프로젝트
 
